@@ -7,7 +7,7 @@ $pdf = new FPDF("L", "cm", "A4");
 $pdf->SetMargins(2,1,1);
 $pdf->AliasNbPages();
 $pdf->AddPage();
-$pdf->SetFont('Times', 'B', 11);
+$pdf->SetFont('Arial', 'B', 11); // Menggunakan font Arial dengan style Bold dan ukuran 11
 $pdf->SetX(4);
 $pdf->MultiCell(19.5,0.5,'KIOS SKANIFO', 0, 'L');
 $pdf->SetX(4);
